@@ -1,0 +1,25 @@
+*************************************************
+* The program works from the subject line   	*
+* It will search what ever you put in there 	*
+* and then return the results against the   	*
+* list of files at hand.                    	*
+*						*
+* To set up, you will have to create folder	*
+* called "MSDS" and this is where your files	*
+* will be kept.  This will be changed shortly.	*
+*						*
+* To add a file thru email, put "***add"	*
+* in the subject line, and have files you want 	*
+* to add attached.				*
+* I don't know how it will perform with no files*
+*						*
+* You need an email account with SMTP and IMAP	*
+* access, this is configured in config.php	*
+* 						*
+* Currently this program works only when called *
+* ex// php autosender.php       		*
+* Try 						*
+* watch -n 10 "php automsds.php >> runlog.txt"	*
+* to put it into a continual state		*
+* 						*
+* ***********************************************
