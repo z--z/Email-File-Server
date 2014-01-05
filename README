@@ -4,15 +4,6 @@
 * and then return the results against the   	*
 * list of files at hand.                    	*
 *						*
-* To set up, you will have to create folder	*
-* called "MSDS" and this is where your files	*
-* will be kept.  This will be changed shortly.	*
-*						*
-* To add a file thru email, put "***add"	*
-* in the subject line, and have files you want 	*
-* to add attached.				*
-* I don't know how it will perform with no files*
-*						*
 * You need an email account with SMTP and IMAP	*
 * access, this is configured in config.php	*
 * 						*
@@ -20,6 +11,15 @@
 * ex// php autosender.php       		*
 * Try 						*
 * watch -n 10 "php automsds.php >> runlog.txt"	*
-* to put it into a continual state		*
-* 						*
+* to put it into a continual state 		*
+* (10 in above command indicated run every 10s) *
+*						*
+*	Functions (use in subject line)		*
+*  ***add    --> add attached files to folder	*
+*  ***new:____    --> create your own folder	*
+*     ex//  ***new:personal			*
+*	   -creates seperate folder "personal"	*
+*	   -creates seperate permissions for you*
+*	   -creates seperate IMAP record folder *
+*  .   --> Lists all files with links in folder *
 * ***********************************************
